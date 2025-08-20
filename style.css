@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+   font-family: 'Inter' ,sans-serif;
+}
+ 
+section {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+#main {
+    background-image: url(img/bgMAIN.png);
+}
+
+#about{
+    background-image: url(img/bgABOUT.png);
+}
+
+#skills{
+    background-image: url(img/bgSKILLS.png);
+}
+
+#works{
+    background-image: url(img/bgWORKS.png);
+}
+
+#comments{
+    background-image: url(img/bgCOMMENTS.png);
+}
+
