@@ -13,38 +13,145 @@
 <link href="https://fonts.googleapis.com/css2?family=Barrio&family=Caveat:wght@400..700&family=Comfortaa:wght@300..700&family=Inconsolata:wght@200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family
 =Montserrat:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
+    <nav>
+        <div class="fixed-manu">
+            <h1 class="logo">DK</h1>
+            <div class="nav-links">
+                <a class="nav-link main-link active" href="#main">main</a>
+                <a class="nav-link about-link" href="#about-me"> about me</a>
+                <a class="nav-link skills-link" href="#skills"> skills</a>
+                <a class="nav-link works-link" href="#works">works</a>
+                <a class="nav-link comments-link" href="#comments">comments</a>
+            </div>
+            <div class="mobile-button">
+                <img src="img/mobile_menu.png" width="40" alt="">
+            </div>
+            <div class="mobile-menu hide">
+                <div class="mobile-nav">
+                    <div class="mobile-nav-links">
+                        <a class="nav-link" href="#main">Main</a>
+                        <a class="nav-link" href="#about">About me</a>
+                        <a class="nav-link" href="#skills">Skills</a>
+                        <a class="nav-link" href="#works">Works</a>
+                        <a class="nav-link" href="#comments">comments</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
     <section id="main">
         <div class="main-block">
-
+            <img src="img/maskot.png" alt="" width="125">
+            <div class="main-content">
+                <h1 class="main-title">maya karpin</h1>
+                <p class="main-subtitle">portpholio of a website developer</p>
+            </div>
+            <div class="button">
+                <a href="#">for more info</a>
+            </div>
         </div>
+         <div class="moving-planet"></div>
+
     </section>
 
     <section id="about">
+        <h1 class="title">about me</h1>
         <div class="about-block">
-
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-title">My name is Maya.
+                        I develope websits
+                    </p>
+                    <div class="button">
+                        <a href="#">My skills</a>
+                    </div>
+                </div>
+                <div class="about-card">
+                    <img src="img/mayak.jpg"  width="250" alt="">
+                    <p>My location: ashkelon, Israel</p>
+                    <p>Age: 17</p>
+                    <p>Date of birth: 8 october 2008</p>
+                </div>
+            </div>
         </div>
+        <div class="cloud"></div>
     </section>
     
     <section id="skills">
+        <h1 class="title">skills</h1>
         <div class="skills-block">
-
+            <div class="skills-card">
+                <p>i made this website as part of my projects</p>
+                <div class="languages">
+                    <img src="img/html.png" alt="" >
+                    <img src="img/css.png" alt="">
+                    <img src="img/js.png" alt="">
+                </div>
+                <div class="planet2"></div>
+            </div>
         </div>
     </section>
 
     <section id="works">
+        <h1 class="title">works</h1>
         <div class="works-block">
-
+            <div class="works-img">
+                <img src="img/mayda.png" alt="">
+                <img src="img/iphone.png" alt="">
+                <img src="img/october.png" alt="">
+            </div>
+        
         </div>
     </section>
 
     <section id="comments">
+        <h1 class="title">comments</h1>
         <div class="comments-block">
-
+            <div class="comments-card">
+                <img src="img/photo1.png" alt="">
+                <h3>vladimir</h3>
+                <p>CEO of RTS- Rocket Tech School</p>
+            </div>
+            <div class="comments">
+                <p>this girl has completed the 4 month web development cours, and is already creating sophisticated websits!</p>
+            </div>
+        </div>
+        <div class="comments-block">
+            <div class="comments-card">
+                <img src="img/photo2.png" alt="">
+                <h3>Diana</h3>
+                <p>prodact lead Rocket Tech School</p>
+            </div>
+            <div class="comments">
+                <p>very good at writing code. Excellent website optimization. Innovative, stylish and playful</p>
+            </div>
         </div>
     </section>
-
+   <footer class="footer">
+    <div class="footer-container1">
+        maya karpin <br> web developer personal site
+    </div>
+  <div class="footer-container">
+    <p class="maya"> 2025 © </p>
+  </div>
+    <div class="footer-contact2">
+       <a href="https://discord.com/channels/@me">
+        <img src="img/discord.svg" alt="">
+       </a>
+       <a href="https://www.facebook.com/profile.php?id=100072545276107&sk=photos">
+        <img src="img/facebook.svg" alt="">
+       </a>
+       <a href="https://www.instagram.com/">
+        <img src="img/instagram.svg" alt="">
+       </a>
+       <a href="">
+        <img src="img/telegram.svg" alt="">
+       </a>
+    </div>
+</footer>
     <script src="main.js"></script>
 </body>
 </html>
